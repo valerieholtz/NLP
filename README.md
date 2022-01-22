@@ -10,4 +10,13 @@ pipeline_rf = Pipeline([
                      ('classifier', RandomForestClassifier())
                 ])
 ```
-          
+
+
+- Sentiment Analysis on the yelp reviews dataset (https://www.kaggle.com/c/yelp-recsys-2013). Feature Engineering and Linear Support Vector Classifier (SVC) give an accuracy of 0.84 with the following pipeline:
+
+```
+pipe_fe = Pipeline([('bow', CountVectorizer()),
+                 ('tfidf', TfidfTransformer()),
+                 ('model', LinearSVC())
+                 ])
+ ```
