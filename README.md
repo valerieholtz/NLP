@@ -1,7 +1,7 @@
 # NLP
 ### Collection of NLP related projects with Machine Learning and Deep Learning
 
-- Train different NLP models with TensorFlow/Keras on the IMDb Movie Reviews dataset
+- Different NLP models with TensorFlow/Keras on the IMDb Movie Reviews dataset
   - BoW
   - Fully Connected Neural Network
   - Word Embeddings
